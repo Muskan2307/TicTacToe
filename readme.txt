@@ -1,15 +1,12 @@
-
-Muskan
-Entry No. 2020CSB1100
-Here is the Readme file for Lab2 - TicTacToe Game in java
-
 Description of Game:-
 
 First the current state i.e. empty playBoard will get printed on screen and then the description to help user to tell that which number is associated with which position on the playBoard.
 Then the user will be instructed to give the input accordingly for which version he wants to enter in(player vs player or player vs computer).
+
 Player vs Player version:-
 In this Player1 will get the first chance to make a move and its move will always be represented with 'X' and then the second player with representation 'O' and the game will continue until 
 someone wins or no blank spaces available on the board i.e. tie.
+
 Player vs Computer version
 In this player will be given the first chance to make a move always with representation 'X' and then the computer with representation 'O' will always move optimally according to the
 minimax algorithm and therefore the game will either end in tie or the computer will win due to optimal play of the computer.
@@ -55,7 +52,3 @@ public class TicTacToe {
 
         // To help compTurn in deciding the optimal move with the help of implementation of minimax algorithm
         private static int minimax(char[][] playBoard, boolean isMaximising)
-
-Submission and running:-
-I am submitting the file as a targzipped archive with 2020CSB1000.tar and the java file as TicTacToe.java and class file as TicTacToe.class.
-I am following the same convention and file names as instructed so you can run it in any way i.e. through command line argument or any other way you want it should run.
